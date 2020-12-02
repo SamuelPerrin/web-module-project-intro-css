@@ -28,7 +28,9 @@ html {
   font-family: 'Roboto Mono', monospace;
   /* overflow:hidden; */
 }
-
+strong {
+  font-weight:bold;
+}
 nav {
   margin:20px;
   text-align:center;
@@ -103,15 +105,17 @@ p {
 }
 footer {
   background:#F9E7DC;
-  height:40vh;
 }
-#footer-img {
-  height:20vh;
+.footer-img {
+  width:99.1vw;
+  height:30vh;
+  overflow:hidden;
 }
 footer img {
-  width:100vw;
-  display:inline;
+  margin:-10rem 0;
+  width:100%;
 }
 .footer-nav {
   display:block;
+  padding:1rem;
 }
